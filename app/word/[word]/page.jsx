@@ -5,6 +5,7 @@ import axios from 'axios';
 import Link from 'next/link';
 import { SearchBar } from '@/app/components/SearchBar';
 import { moul } from '@/app/components/Font';
+import { Footer } from '@/app/components/Footer';
 
 export default function Word() {
     const { word } = useParams();
@@ -56,6 +57,7 @@ export default function Word() {
                 <p className='mt-10 text-gray-400'>រកមិនឃើញពាក្យដែលអ្នកបានស្វែងរក...</p>
                 </>
             }
+            <Footer/>
         </div>
     );
 }
