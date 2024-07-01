@@ -1,6 +1,6 @@
 # Khmer Dictionary App
 
-This is a Khmer dictionary web application built with Next.js, using the Wiktionary API for fetching word definitions.
+This is a Khmer dictionary web application built with Next.js, and using the Wiktionary API for fetching word definitions.
 
 ## Features
 
